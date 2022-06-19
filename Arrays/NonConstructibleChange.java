@@ -5,7 +5,6 @@ import java.util.*;
 public class NonConstructibleChange {
 
     public int nonConstructibleChange(int[] coins) {
-      // Write your code here.
       Arrays.sort(coins);
       int currentMinimumChange = 0;
   
